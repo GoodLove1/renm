@@ -1,2 +1,2 @@
-web: python -m https.server $PORT
+web: python -m http.server $PORT
 worker: python bot.py
